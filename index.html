@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pig-Dice</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>PIG-DICE</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>First Player: <span id="player1Name"><span></h2>
+                <button id="player1-roll" class="btn-primary btn" onclick="myTurn(1)">Roll</button>
+                <h2>Rolls</h2>
+                <p>Total Score: <span id="total-score-1">0</span></p>
+            </div>
+            <h2>Second Player: <span id="player2Name"><span></h2>
+            <button id="player2-roll" class="btn-primary btn" onclick="myTurn(2)">Roll</button>
+            <h2>Rolls</h2>
+            <p>Total Score: <span id="total-score-2">0</span></p>
+        </div>
+</body>
+
+</html>
