@@ -1,12 +1,12 @@
 .jumbotron {
     text-align: center;
     font-size: 70%;
-    background-image: url("image/logo.png");
+    background-image: url("images/head.png");
     background-origin: 80%;
 }
 
 body {
-    background-image: url("image/hd.jpg");
+    background-image: url("images/hd.jpg");
 }
 
 h2 {
