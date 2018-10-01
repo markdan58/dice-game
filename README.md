@@ -6,7 +6,7 @@ This project involves the creation of a program  where two users can play a frie
 ## Project setup instructions:
 The game can be played by two players and the dice handed over to the next player at the end the winner is announced.
 
-## link to the live site: <a href=""> PIG-DICE <a>
+## link to the live site: <a href="https://markdan58.github.io/dice-game/"> PIG-DICE <a>
 
 ## Built With
 
